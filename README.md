@@ -1,4 +1,4 @@
-# Felipe Santos's dotfiles <!-- omit in toc -->
+# Guilherme Ferreira's dotfiles <!-- omit in toc -->
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/felipecrs/dotfiles#scripts)
 
@@ -37,13 +37,14 @@ Now you will learn how to bootstrap this repository on your machine.
 You can use the [convenience script](./clone_and_install.sh) with, it will install Git in case you don't have it already:
 
 ```bash
-sh -c "$(wget -qO- https://git.io/felipecrs-dotfiles)"
+sh -c "$(wget -qO- https://raw.githubusercontent.com/GuilhermeSimFer/dotfiles/master/scripts/install_dotfiles.sh)"
+
 ```
 
 > 💡 We use `wget` here because not all systems comes with `curl` installed. But the `curl` version of it is:
 >
 > ```bash
->  sh -c "$(curl -fsSL https://git.io/felipecrs-dotfiles)"
+>  sh -c "$(curl -fsSL https://raw.githubusercontent.com/GuilhermeSimFer/dotfiles/master/scripts/install_dotfiles.sh)"
 > ```
 
 #### Usage
